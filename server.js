@@ -47,6 +47,7 @@ server.post(BASE_ROUTE +  '/login', (req, res) => {
 
 server.use(middlewares)
 server.use((req, res, next) => {
+  console.log("token", req.headers.token)
   if(!req.headers.token) {
     res.sendStatus(401)
     return
