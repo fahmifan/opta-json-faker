@@ -1,0 +1,87 @@
+{
+  "routes": [
+    {
+      "id": 1,
+      "start_loc": "DU",
+      "end_loc": "Jatinangor",
+      "detail": [
+        {
+          "id": 1,
+          "bus_id": 90,
+          "location_name": "Dipati Ukur",
+          "queue": 1,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 3,
+          "bus_id": 90,
+          "location_name": "Supratman",
+          "queue": 2,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 7,
+          "bus_id": 90,
+          "location_name": "Laswi",
+          "queue": 3,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 10,
+          "bus_id": 90,
+          "location_name": "Moh Toha",
+          "queue": 4,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 11,
+          "bus_id": 90,
+          "location_name": "Jatinangor",
+          "queue": 5,
+          "latitude": 1,
+          "longitude": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_loc": "Elang",
+      "end_loc": "Jatinangor",
+      "detail": [
+        {
+          "id": 1,
+          "bus_id": 90,
+          "location_name": "Elang",
+          "queue": 1,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 10,
+          "bus_id": 90,
+          "location_name": "Moh Toha",
+          "queue": 2,
+          "latitude": 1,
+          "longitude": 1
+        },
+        {
+          "id": 11,
+          "bus_id": 90,
+          "location_name": "Jatinangor",
+          "queue": 3,
+          "latitude": 1,
+          "longitude": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_loc": "Cicaheum",
+      "end_loc": "Cibiru"
+    }
+  ]
+}
