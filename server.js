@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults()
 
 const BASE_ROUTE = "/api"
 
-server.use(bodyParser.urlencoded({extended: true}))
+server.use(bodyParser.json())
 
 const pt = "goodluck!"
 const TOKEN = new Buffer(pt).toString("base64")    
@@ -37,6 +37,8 @@ server.post(BASE_ROUTE +  '/login', (req, res) => {
   
   res.statusCode = 400
   res.send({
+    "email": email,
+    "password": password,
     "error": "Email or Password Invalid"
   })
   
